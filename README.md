@@ -29,7 +29,6 @@ Eat-Da-Burger is a burger logger with MySQL, Node, Express, Handlebars and a hom
 
 - [express](https://www.npmjs.com/package/express) - A collection of common interactive command line user interfaces
 - [express-handlebars](https://www.npmjs.com/package/express-handlebars) - A Handlebars view engine for Express which doesn't suck
-
 - [mysql](https://www.npmjs.com/package/dotenv) - Node.js driver for MySQL
 
 ---
