@@ -1,8 +1,6 @@
 <div class="pageBodyContainer">
   <div class="header">
-    {{!-- <img class="burgerImgMed" src="assets/img/burger.png"> --}}
     <h1 id="pageTitle">Eat-Da-Burger!</h1>
-    {{!-- <img class="burgerImgMed" src="assets/img/burger.png"> --}}
   </div>
 
   <div class="row">
@@ -12,7 +10,6 @@
       {{#each burgers}}
       {{#unless devoured}}
       <div class="burgerBox">
-        {{!-- <img class="burgerImg" src="assets/img/burger.png"> --}}
         {{burger_name}}
         <button class="devourUndevour devour" data-id="{{id}}" data-devoured="{{devoured}}">Devour It!</button>
         <button class="deleteBurger" data-id="{{this.id}}">X</button>
@@ -28,7 +25,6 @@
       {{#each burgers}}
       {{#if devoured}}
       <div class="burgerBox">
-        {{!-- <img class="burgerImg" src="assets/img/burger.png"> --}}
         {{burger_name}}
         <button class="devourUndevour undevour" data-id="{{id}}" data-devoured="{{devoured}}">Regurgitate?</button>
         <button class="deleteBurger" data-id="{{this.id}}">X</button>

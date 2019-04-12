@@ -1,6 +1,5 @@
 body {
-  /* background-image: url("../img/burgerTile.png"); */
-  font-family: 'Istok Web', sans-serif;
+  font-family: sans-serif;
 }
 
 .pageBodyContainer {
@@ -68,7 +67,7 @@ body {
   position: absolute;
   right: 5px;
   top: 5px;
-  background-color: #ff0000;
+  background-color: #f03e3e;
   color: #ffffff;
   border-radius: 15px;
   font-weight: bold;
@@ -79,11 +78,11 @@ body {
 }
 
 .undevour {
-  background-color: #ff8080;
+  background-color: #f03e3e;
 }
 
 .devour {
-  background-color: #79d279;
+  background-color: #12b886;
 }
 
 .devourUndevour {
@@ -120,7 +119,7 @@ body {
 }
 
 #burgerButton {
-  background-color: #3385ff;
+  background-color: #228be6;
   margin: 10px 0;
   border: 1px solid #bbbbbb;
   color: white;
